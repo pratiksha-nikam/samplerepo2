@@ -4,13 +4,12 @@ public class SalesClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int arr[]=new int[4];
+		int arr[]= {10,8,9,36,67};
 		int sum=0;
-		arr[0]=10;arr[1]=20;arr[2]=40;arr[3]=60;
-		for(int i=0;i<arr.length;i++)
+		for(int num:arr)
 		{
-			System.out.println(arr[i]);
-			sum=sum+arr[i];
+			//System.out.println(arr[i]);
+			sum=sum+num;
 			System.out.println(sum);
 		}
 			
